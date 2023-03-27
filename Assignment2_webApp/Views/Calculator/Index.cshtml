@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+
+    <h1 style="color:red">Simple Calculator</h1>
+    <form method="post" action="calculate">
+
+        <label for="fnum">Enter 1st Number:</label><br>
+        <input type="number" step=any name="num1" id="fnum"><br>
+
+        <label for="Snum">Enter 2nd Number:</label><br>
+        <input type="number" step=any name="num2" id="Snum"><br>
+
+
+        <input type="radio" id="add" name="operation" value="+">
+        <label for="add">Addition</label>
+
+        <input type="radio" id="subs" name="operation" value="-">
+        <label for="subs">Subtraction</label>
+
+        <input type="radio" id="multiply" name="operation" value="*">
+        <label for="multiply">Multiplication</label>
+
+        <input type="radio" id="division" name="operation" value="/">
+        <label for="division">Division</label><br>
+
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+
+    @if (ViewBag.Result != null)
+    {
+        <h2>Result: @ViewBag.Result</h2>
+    }
+    @if (ViewBag.Error != null)
+    {
+        <p style="color:red">Result: @ViewBag.Error</p>
+    }
+</div>

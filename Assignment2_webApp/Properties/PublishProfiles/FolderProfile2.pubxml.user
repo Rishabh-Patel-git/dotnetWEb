@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\rishabhpatel\source\repos\Assignment2_webApp\Assignment2_webApp\bin\Release\net5.0\publish\</_PublishTargetUrl>
+    <History>True|2023-03-23T03:47:00.8715338Z;True|2023-03-22T17:05:20.7461368+05:30;</History>
+  </PropertyGroup>
+</Project>
